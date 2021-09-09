@@ -43,7 +43,8 @@ variable "VCNname" {
 }
 
 variable "Shape" {
-  default = "VM.Standard.E3.Flex"
+  #default = "VM.Standard.E3.Flex"
+  default = "VM.Standard.E2.1.Micro"
 }
 
 variable "FlexShapeOCPUS" {
